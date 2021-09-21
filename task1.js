@@ -1,1 +1,1 @@
-alert('Dmytro');
+console.log('Storozhuk');
