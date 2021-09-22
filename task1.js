@@ -22,5 +22,17 @@ const typeObj = {
 };
 
 //task5
-const isAdult = prompt ("What is your age");
+const isAdult = prompt ("What is your age?");
 console.log(isAdult);
+
+//task7
+const userName = prompt ("Write your name", "Dima");
+const email = prompt ("Write your email", "example@gmail.com");
+const password = prompt ("Write your password", " ");
+alert("Dear " + userName + ", your email is " + email + ", your password is " + password);
+
+//task8
+const secondsInHour = 60 * 60;
+const secondsInDay = secondsInHour * 24;
+const secondsInMonth = secondsInDay * 30;
+alert("Секунд в годині - " + secondsInHour + ", Секунд в добі - " + secondsInDay + ", Секунд в місяці - " + secondsInMonth);
